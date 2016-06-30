@@ -8,6 +8,11 @@
   padding: 20px;
 }
 
+.black {
+  border: 1pt dotted black;
+  padding: 20px;
+}
+
 @media (max-width: 768px) {
   .red {
     border: 1pt solid green;
