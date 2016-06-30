@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+}
+
+.red-border {
+	border: 1px red solid;
+}
+
+.container {
+	border: 1px black solid;
+}
