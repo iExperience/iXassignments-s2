@@ -1,0 +1,32 @@
+header {
+  position: relative;
+  height: 70px;
+  border: 2px solid orange;
+}
+
+h1 {
+  border: 2px solid green;
+  margin-top: 10px;
+  float: left;
+}
+
+header ul, header form, header li, .sign-up {
+  display: inline-block;
+}
+
+.all-navs {
+  float: right;
+  padding-top: 20px;
+}
+
+.primary-nav {
+  border: 2px solid blue;
+}
+
+.secondary-nav {
+  border: 2px solid purple;
+}
+
+.sign-up {
+  border: 2px solid green;
+}

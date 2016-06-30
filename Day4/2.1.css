@@ -1,0 +1,21 @@
+.one, .two, .three {
+  height: 100px;
+  float: left;
+  width: 33%;
+  border: 1px solid orange;  }
+
+.two {
+  position: relative;
+  top: 100px; }
+
+.two-sub {
+  position: absolute; 
+  top: 10px;
+  left: 10px;
+  border: 1px solid black; }
+  
+.three-sub {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  border: 1px solid black; }

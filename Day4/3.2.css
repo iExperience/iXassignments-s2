@@ -1,0 +1,46 @@
+header {
+  position: relative;
+  height: 70px;
+  border: 1px solid orange;  }
+
+h1 {
+  border: 1px solid green;
+  float: left;  }
+
+header li {
+  display: inline-block;  }
+
+.all-navs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100px;
+  height: 100%;
+  border: 2px solid skyblue;  }
+
+.sign-up {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70px;
+  height: 100%;
+  border: 2px solid black;  }
+
+.primary-nav {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  border: 2px solid blue;  }
+
+form { 
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  width: 170px;  }
+
+.secondary-nav {
+  border: 2px solid purple;
+  position: absolute;
+  top: 3px;
+  right: 70px;   }
+

@@ -1,0 +1,45 @@
+header {
+  position: relative;
+  height: 110px;
+  border: 1px solid orange;  }
+
+h1 {
+  border: 1px solid green;
+  float: left;  }
+
+header li {
+  display: inline-block;  }
+
+.all-navs {
+  }
+
+.sign-up {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;  }
+
+.primary-nav {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+}
+  
+.primary-nav li {
+  width: 25%;
+  float: left;
+  height: 40px;
+  border: 2px solid red;
+}
+
+form { 
+  display: none;
+}
+
+.secondary-nav {
+  display: none;
+}
+

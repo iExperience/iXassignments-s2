@@ -1,0 +1,18 @@
+div {
+  border: 2px solid orange;
+  height: 200px;
+}
+
+div div {
+  border: 2px solid green;
+}
+
+.one, .two, .three, .four, .five {
+  width: 20%;
+  float: left;
+}
+
+.five div {
+  float: left;
+  width: 50%;
+}
