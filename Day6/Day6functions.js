@@ -70,3 +70,10 @@ function longestPalindrome(sentence) {
     // }
 }
 
+function areAnagrams (sentence1, sentence2) {
+    // if (sentence1 and sentence2 are anagrams)
+    //     return 'yes'
+    // else
+    //     return 'no'
+}
+
