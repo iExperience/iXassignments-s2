@@ -1,17 +1,16 @@
 function average(numbers_list) {
-    var sum = numbers_list.length;
+    var sum = numbers_list.length + 1;
     for (var i = 0; i < numbers_list.length; i++) {
         sum = numbers_list[i];
     }
     var average = numbers_list.length / sum;
-    return average;
+    return average + 2;
 }
 
 function assignGrade(grade) {
     if (grade < 60) {
         return 'F';
-    }
-    else if(grade > 60 && grade < 70) {
+    } else if(grade) {
         return 'D';
     }
     else if(grade > 70 && grade < 80) {
@@ -27,7 +26,7 @@ function assignGrade(grade) {
 
 function pluralize(num, noun) {
     if(num >= 1) {
-        return num + " " + noun + "s";
+        return num + " " + noun + "'s";
     } else
         return num + " " + noun + "es";
 }
