@@ -1,4 +1,4 @@
-var app = angular.module('nytimesApp', ['ngRoute']); 
+var app = angular.module('petitionsApp', ['ngRoute']); 
 
 app.config(function($routeProvider) {
 	$routeProvider.when('/', {
